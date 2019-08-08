@@ -1,0 +1,119 @@
+Anatomical Automatic Labeling
+AAL模板一共有116个区域，但只有90个属于大脑，剩余26个属于小脑结构，研究的较少。
+1 Precentral_L 2001 中央前回
+2 Precentral_R 2002 中央前回
+3 Frontal_Sup_L 2101 额上回背外侧
+4 Frontal_Sup_R 2102 额上回背外侧
+5 Frontal_Sup_Orb_L 2111 额上回眶部
+6 Frontal_Sup_Orb_R 2112 额上回眶部
+7 Frontal_Mid_L 2201 额中回
+8 Frontal_Mid_R 2202 额中回
+9 Frontal_Mid_Orb_L 2211 额中回眶部
+10 Frontal_Mid_Orb_R 2212 额中回眶部
+11 Frontal_Inf_Oper_L 2301 额下回岛盖部
+12 Frontal_Inf_Oper_R 2302 额下回岛盖部
+13 Frontal_Inf_Tri_L 2311 额下回三角部
+14 Frontal_Inf_Tri_R 2312 额下回三角部
+15 Frontal_Inf_Orb_L 2321 额下回眶部
+16 Frontal_Inf_Orb_R 2322 额下回眶部
+17 Rolandic_Oper_L 2331 中央沟盖
+18 Rolandic_Oper_R 2332 中央沟盖
+19 Supp_Motor_Area_L 2401 补充运动区
+20 Supp_Motor_Area_R 2402 补充运动区
+21 Olfactory_L 2501 嗅皮质
+22 Olfactory_R 2502 嗅皮质
+23 Frontal_Sup_Medial_L 2601 额上回内侧面
+24 Frontal_Sup_Medial_R 2602 额上回内侧面
+25 Frontal_Med_Orb_L 2611 额上回眶内
+26 Frontal_Med_Orb_R 2612 额上回眶内
+27 Rectus_L 2701 回直肌
+28 Rectus_R 2702 回直肌
+29 Insula_L 3001 岛部
+30 Insula_R 3002 岛部
+31 Cingulum_Ant_L 4001 前扣带和旁扣带脑回
+32 Cingulum_Ant_R 4002 前扣带和旁扣带脑回
+33 Cingulum_Mid_L 4011 内侧和旁扣带脑回
+34 Cingulum_Mid_R 4012 内侧和旁扣带脑回
+35 Cingulum_Post_L 4021 后扣带回
+36 Cingulum_Post_R 4022 后扣带回
+37 Hippocampus_L 4101 海马
+38 Hippocampus_R 4102 海马
+39 ParaHippocampal_L 4111 海马旁回
+40 ParaHippocampal_R 4112 海马旁回
+41 Amygdala_L 4201 杏仁核
+42 Amygdala_R 4202 杏仁核
+43 Calcarine_L 5001 距状裂周围皮层
+44 Calcarine_R 5002 距状裂周围皮层
+45 Cuneus_L 5011 楔叶
+46 Cuneus_R 5012 楔叶
+47 Lingual_L 5021 舌回
+48 Lingual_R 5022 舌回
+49 Occipital_Sup_L 5101 枕上回
+50 Occipital_Sup_R 5102 枕上回
+51 Occipital_Mid_L 5201 枕中回
+52 Occipital_Mid_R 5202 枕中回
+53 Occipital_Inf_L 5301 枕下回
+54 Occipital_Inf_R 5302 枕下回
+55 Fusiform_L 5401 梭状回
+56 Fusiform_R 5402 梭状回
+57 Postcentral_L 6001 中央后回
+58 Postcentral_R 6002 中央后回
+59 Parietal_Sup_L 6101 顶上回
+60 Parietal_Sup_R 6102 顶上回
+61 Parietal_Inf_L 6201 顶下缘角回
+62 Parietal_Inf_R 6202 顶下缘角回
+63 SupraMarginal_L 6211 缘上回
+64 SupraMarginal_R 6212 缘上回
+65 Angular_L 6221 角回
+66 Angular_R 6222 角回
+67 Precuneus_L 6301 楔前叶
+68 Precuneus_R 6302 楔前叶
+69 Paracentral_Lobule_L 6401 中央旁小叶
+70 Paracentral_Lobule_R 6402 中央旁小叶
+71 Caudate_L 7001 尾状核
+72 Caudate_R 7002 尾状核
+73 Putamen_L 7011 豆状壳核
+74 Putamen_R 7012 豆状壳核
+75 Pallidum_L 7021 豆状苍白球
+76 Pallidum_R 7022 豆状苍白球
+77 Thalamus_L 7101 丘脑
+78 Thalamus_R 7102 丘脑
+79 Heschl_L 8101 颞横回
+80 Heschl_R 8102 颞横回
+81 Temporal_Sup_L 8111 颞上回
+82 Temporal_Sup_R 8112 颞上回
+83 Temporal_Pole_Sup_L 8121 颞极：颞上回
+84 Temporal_Pole_Sup_R 8122 颞极：颞上回
+85 Temporal_Mid_L 8201 颞中回
+86 Temporal_Mid_R 8202 颞中回
+87 Temporal_Pole_Mid_L 8211 颞极：颞中回
+88 Temporal_Pole_Mid_R 8212 颞极：颞中回
+89 Temporal_Inf_L 8301 颞下回
+90 Temporal_Inf_R 8302 颞下回
+91 Cerebelum_Crus1_L 9001
+92 Cerebelum_Crus1_R 9002
+93 Cerebelum_Crus2_L 9011
+94 Cerebelum_Crus2_R 9012
+95 Cerebelum_3_L 9021
+96 Cerebelum_3_R 9022
+97 Cerebelum_4_5_L 9031
+98 Cerebelum_4_5_R 9032
+99 Cerebelum_6_L 9041
+100 Cerebelum_6_R 9042
+101 Cerebelum_7b_L 9051
+102 Cerebelum_7b_R 9052
+103 Cerebelum_8_L 9061
+104 Cerebelum_8_R 9062
+105 Cerebelum_9_L 9071
+106 Cerebelum_9_R 9072
+107 Cerebelum_10_L 9081
+108 Cerebelum_10_R 9082
+109 Vermis_1_2 9100
+110 Vermis_3 9110
+111 Vermis_4_5 9120
+112 Vermis_6 9130
+113 Vermis_7 9140
+114 Vermis_8 9150
+115 Vermis_9 9160
+116 Vermis_10 9170
+
